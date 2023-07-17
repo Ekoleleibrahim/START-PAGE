@@ -131,88 +131,56 @@ button:hover
     
 }
 
-/*ma deuxième section*/
-.section2
+
+
+/*ma deuxième et troisième section */
+.section2,.section3
 {
-    margin-left: 150px;
-    margin-right: 130px;
     padding: 50px;
-    
+    margin-left: 120px;
 }
 
 .lorem
 {
     text-transform: capitalize;
-    font-weight: normal;
-    font-size: 2em;
-    
+    margin-bottom: 20px;
+}
+
+.image1,.image2
+{
+    width: 250px;
+    height: 200px;
+    margin-bottom: 25px;
 }
 
 .image1
 {
-    height: 200px;
-    width: 300px;
-    margin-left: 15px;
-    
+    float: right;
+    margin-left: 20px;
 }
 
 .image2
 {
-    height: 250px;
-    width: 300px;  
     float: left;
-    margin: 80px 10px 0 100px;
-}
-
-.crochet
-{
-    float: right;
-    position: relative;
-    bottom: 100px;
-    margin-left: 80px;
-    
-}
-
-.para1
-{
-    width: 750px;
-    margin-top: 50px;
+    margin-right: 20px;
 }
 
 .para1,.para2
 {
-    text-align: justify;
-}
-.para2
-{
-    color: grey;
-    margin-right: 20px;
-    margin-top: 30px;
-    
-}
-
-/*ma troisième section */
-
-.div6
-{
-    padding: 80px;
-    background-color: rgb(233, 228, 228);
-    
-}
-
-.section3
-{
-    margin-left: 500px;
-    
+    clear: left;
 }
 
 .para3,.para4
 {
-    width: 700px;
-    text-align: justify;
+    clear: right;
 }
 
-.para4
+.para1,.para2,.para3,.para4
+{
+    font-size: 1.1em;
+}
+
+.para4,.para2
 {
     margin-top: 30px;
     color: grey;
@@ -229,6 +197,11 @@ button:hover
     text-align: center;
     font-size: 1.3em;
     color: white;
+}
+
+*p
+{
+    text-align: justify;
 }
 
 .container1
